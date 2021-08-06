@@ -12,7 +12,7 @@ while condition == "yes":
     print("2: To Login\n")
     choice = int(input("Enter your option: "))
     if choice == 1:
-        file=open("F:/python/file.txt","w")
+        file=open("C:/Users/haide/PycharmProjects/login_and_signup_system/file.txt","w")
         id=input("Enter your id: ")
         password=input("Enter your password: ")
         file.write(id)
@@ -20,7 +20,7 @@ while condition == "yes":
         file.write(password)
         file.close()
     elif choice == 2:
-        file=open("F:/python/file.txt").read().split('\n')
+        file=open("C:/Users/haide/PycharmProjects/login_and_signup_system/file.txt").read().split('\n')
         s=system(file[0],file[1])
         id1=input("Enter your id:")
         password1=input("Enter your password:")
