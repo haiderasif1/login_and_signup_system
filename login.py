@@ -30,5 +30,5 @@ while condition == "yes":
             print("Failed to login")
     else:
         print("Wrong input")
-    condition=input("Press yes to try again: ")
+    condition=input("Press yes to try again:")
 
